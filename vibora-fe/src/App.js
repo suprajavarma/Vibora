@@ -1,11 +1,10 @@
 import React from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/landingPage';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import TastySpots from './components/tastySpots';
 import ShowTime from './components/showTime';
 import Voyages from './components/voyages';
-
-
 
 function App() {
   return (
